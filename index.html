@@ -1,0 +1,75 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="card flex">
+    <div class="card-left flex">
+      <p class="card-left-text flex">Your Result</p>
+      <div class="card-left-score">
+        <div class="circle flex">
+          <p class="number">76</p>
+        <div class="of">of 100</div>
+        </div>
+      </div>
+      <div class="card-text-down flex">
+        <h1 class="card-text-compliment">Great</h1>
+        <p class="card-main-text"> You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="card-right flex">
+      <h2 class="card-right-heading">Summary</h2>
+      <div class="card-right-scorecard flex">
+        <div class="score">
+          <div class="score-topic">
+            <img alt="memory" src="assets/images/icon-memory.svg">
+             <p class="score-topic-text">Memory</p>
+          </div>
+          <p class="score-text"> 92 <span class="outof">/ 100</span></p>
+        </div>
+        <div class="score">
+          <div class="score-topic">
+            <img alt="reaction" src="assets/images/icon-reaction.svg">
+             <p class="score-topic-text">Reaction</p>
+          </div>
+          <p class="score-text"> 80 <span class="outof">/ 100</span></p>
+        </div>
+        <div class="score">
+          <div class="score-topic">
+            <img alt="verbal" src="assets/images/icon-verbal.svg">
+             <p class="score-topic-text">Verbal</p>
+          </div>
+          <p class="score-text"> 61 <span class="outof">/ 100</span></p>
+        </div>
+        <div class="score">
+          <div class="score-topic">
+            <img alt="memory" src="assets/images/icon-visual.svg">
+             <p class="score-topic-text">Visual</p>
+          </div>
+          <p class="score-text"> 72 <span class="outof">/ 100</span></p>
+        </div>
+        <div class="continue-btn">
+          <button class="button-continue">Continue</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kapil</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --card-height: 20rem;
+
+    /*primary colors*/
+    --light-red: hsl(0, 100%, 67%);
+ --orangey-yellow: hsl(39, 100%, 56%);
+ --green-teal: hsl(166, 100%, 37%);
+ --cobalt-blue: hsl(234, 85%, 45%);
+
+ /* gradients (background) */
+ --light-slate-blue:  hsl(252, 100%, 67%);
+ --light-royal-blue: hsl(241, 81%, 54%);
+ /* gradients (circle) */
+ --violet-blue: hsla(256, 72%, 46%, 1);
+ --persian-blue:  hsla(241, 72%, 46%, 0);
+
+ /* Nuetral */
+ --white: hsl(0, 0%, 100%);
+ --paleblue: hsl(221, 100%, 96%);
+--light-lavender: hsl(241, 100%, 89%);
+--dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--paleblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+/* utitlity */
+
+.flex {
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.card {
+    flex-direction: row;
+    min-height: var(--card-height);
+    background-color: var(--white);
+}
+
+.card-left {
+    height: var(--card-height);
+    width: 45%;
+    background-image: linear-gradient(0deg,var(--light-royal-blue),var(--light-slate-blue));
+    gap: 0.25rem;
+    padding: 0 1rem;
+}
+
+.card-right {
+    width: 55%;
+    height: var(--card-height);
+}
+
+.card-left-text {
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-left-score {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.card-text-down {
+    min-height: 30%;
+    width: 100%;
+    text-align: center;
+    gap: 0.25rem;
+}
+
+.card-text-compliment {
+  color: var(--white);
+  font-size: 1.3rem;
+}
+
+.circle {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 85%;
+    margin: 0 auto;
+    background-color: var(--violet-blue);
+    border: 1px solid var(--violet-blue);
+    border-radius: 50%;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.of {
+    color: var(--light-lavender);
+    font-size: 0.7rem;
+}
+
+.card-left-text {
+    text-align: center;
+    color: var(--light-lavender);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.card-main-text {
+    color: var(--light-lavender);
+    font-size: 0.8rem;
+}
