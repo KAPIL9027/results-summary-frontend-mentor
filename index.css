@@ -124,3 +124,59 @@ body {
     color: var(--light-lavender);
     font-size: 0.8rem;
 }
+
+.score-topic {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 80%;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.score-memory {
+     background-color: hsla(39, 100%, 56%,0.1);
+}
+.score-reaction {
+    background-color: hsla(0, 100%, 67%,0.1);
+}
+.score-verbal {
+    background-color: hsla(166, 100%, 37%,0.1);
+}
+.score-visual {
+    background-color: hsla(234, 85%, 45%,0.1);
+}
+.memory {
+    color: var(--orangey-yellow);
+}
+.reaction {
+    color: var(--light-red);
+}
+.verbal {
+    color: var(--green-teal);
+}
+.visual {
+    color: var(--cobalt-blue);
+}
+
+.card-right-scorecard {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100%;
+}
+
+.card-right {
+    min-height: 100%;
+    gap: 1.5rem;
+}
