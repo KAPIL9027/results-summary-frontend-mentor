@@ -51,7 +51,7 @@ body {
     gap: 2rem;
     justify-content: center;
     align-items:center;
-    font-family: var(--medium);
+    font-family: var(--medium),'sans-serif';
 }
 
 /* utitlity */
@@ -136,7 +136,7 @@ color: rgba(0,0,0,0.4);
 .number {
     font-size: 3rem;
     color: var(--white);
-    font-family: var(--extra-bold);
+    font-family: var(--extra-bold),'sans-serif-bold';
 }
 
 .of {
