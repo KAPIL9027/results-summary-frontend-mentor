@@ -4,9 +4,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#This is my solution to the results summary component challenge on frontend mentor.)
-- [My process](#Used Css FlexBox and media-queries to create beautiful looking desktop and mobile design.)
-  - [Built with](#Html, Css)
+- This is my solution to the results summary component challenge on frontend mentor
+- Used Css FlexBox and media-queries to create beautiful looking desktop and mobile design
+  - Html, Css
 
 
 ### The challenge
@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Url](https://your-solution-url.com)
-- Live Site URL: [Live Url](https://your-live-site-url.com)
+- Solution URL: [Solution Url](https://github.com/KAPIL9027/results-summary-frontend-mentor)
+- Live Site URL: [Live Url](https://kapil9027.github.io/results-summary-frontend-mentor/)
 
 ## My process
 
